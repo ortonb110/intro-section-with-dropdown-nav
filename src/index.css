@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Epilogue", sans-serif;
+    font-size: 62.5%;
+    font-size: 18px;
+  }
+  body {
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .icon-todo::before {
+    content: url("../src/Assets/images/icon-todo.svg");
+    display: inline-block;
+  }
+
+  .icon-reminder::before {
+    content: url("../src/Assets/images/icon-reminders.svg");
+    display: inline-block;
+  }
+  .icon-plan::before {
+    content: url("../src/Assets/images/icon-planning.svg");
+    display: inline-block;
+  }
+  .icon-calendar::before {
+    content: url("../src/Assets/images/icon-calendar.svg");
+    display: inline-block;
+  }
+
+  body header::after {
+    --transition: 200ms ease-in-out;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    transition-delay: 220ms;
+    transition: background-color var(--transition);
+    z-index: 2;
+  }
+
+  @media screen and (max-width: 1023px) {
+    body.lock-scroll header::after {
+      transform: translateX(0);
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  body.lock-scroll {
+    overflow: hidden;
+    height: 100vh;
+  }
 }
