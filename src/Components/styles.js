@@ -5,6 +5,7 @@ const style = {
     submenumobile: `overflow-hidden max-lg:max-h-0`,
     submenudesktop: `lg:absolute lg:top-0 lg:p-8 lg:drop-shadow-xl lg:shadow-2xl`,
     container: `max-w-[87.75rem] mx-auto px-4 sm:px-4 lg:px-6`,
+    containerSm: `max-w-[76.75rem] mx-auto  sm:px-4 lg:px-6`,
 
 }
 

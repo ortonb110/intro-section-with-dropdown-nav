@@ -1,11 +1,13 @@
 import Header from "./Header";
 import Main from "./main";
+import Footer from "./Footer";
 
 function Home() {
     return(
         <>
             <Header/>
-            {/* <Main/> */}
+            <Main/>
+            <Footer/>
         </>
     )
 }
