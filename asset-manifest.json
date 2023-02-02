@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/intro-section-with-dropdown-nav/static/css/main.20a93245.css",
-    "main.js": "/intro-section-with-dropdown-nav/static/js/main.1e203493.js",
+    "main.css": "/intro-section-with-dropdown-nav/static/css/main.fa7cc649.css",
+    "main.js": "/intro-section-with-dropdown-nav/static/js/main.dbbe4fd1.js",
     "static/js/787.d1cf0d25.chunk.js": "/intro-section-with-dropdown-nav/static/js/787.d1cf0d25.chunk.js",
     "static/media/image-hero-desktop.png": "/intro-section-with-dropdown-nav/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/image-hero-mobile.png": "/intro-section-with-dropdown-nav/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
@@ -16,12 +16,12 @@
     "static/media/icon-calendar.svg": "/intro-section-with-dropdown-nav/static/media/icon-calendar.238c231afbc7d43b81c6.svg",
     "static/media/icon-todo.svg": "/intro-section-with-dropdown-nav/static/media/icon-todo.84eeba8f3b9a1811c1ea.svg",
     "static/media/icon-arrow-down.svg": "/intro-section-with-dropdown-nav/static/media/icon-arrow-down.bebf05132571af33611e.svg",
-    "main.20a93245.css.map": "/intro-section-with-dropdown-nav/static/css/main.20a93245.css.map",
-    "main.1e203493.js.map": "/intro-section-with-dropdown-nav/static/js/main.1e203493.js.map",
+    "main.fa7cc649.css.map": "/intro-section-with-dropdown-nav/static/css/main.fa7cc649.css.map",
+    "main.dbbe4fd1.js.map": "/intro-section-with-dropdown-nav/static/js/main.dbbe4fd1.js.map",
     "787.d1cf0d25.chunk.js.map": "/intro-section-with-dropdown-nav/static/js/787.d1cf0d25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20a93245.css",
-    "static/js/main.1e203493.js"
+    "static/css/main.fa7cc649.css",
+    "static/js/main.dbbe4fd1.js"
   ]
 }
