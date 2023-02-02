@@ -2,14 +2,12 @@
 
 <div align="center">
 
-  
-
   <h2 align="center">News homepage</h2>
   <p align="center">
     <a href="https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
-    <a href="https://ortonb110.github.io/news-homepage/">View Demo</a>
+    <a href="https://ortonb110.github.io/intro-section-with-dropdown-nav/">View Demo</a>
     ·
     <a href="https://github.com/ortonb110/intro-section-with-dropdown-nav/issues" target="_blank">Report Bug</a>
     ·
@@ -38,12 +36,12 @@
 
 </div>
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Intro Section with Dropdown Navigation on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [News Homepage(React + Tailwind) | Frontend Mentor](https://www.frontendmentor.io/solutions/news-homepage-EVx04KQesG)
-- Live Site URL: [https://ortonb110.github.io/news-homepage/](https://ortonb110.github.io/interactive-card-details-form/)
+- Solution URL: [News Homepage(React + Tailwind) | Frontend Mentor](https://www.frontendmentor.io/solutions/intro-section-with-a-dropdown-navigation-gta6zWT-m1)
+- Live Site URL: [https://ortonb110.github.io/news-homepage/](https://ortonb110.github.io/intro-section-with-dropdown-nav/)
 
 <br>
 
@@ -65,6 +63,7 @@ Your users should be able to:
 - View the relevant dropdown menus on desktop and mobile when interacting with the navigation links
 - View the optimal layout for the content depending on their device's screen size
 - See hover states for all interactive elements on the page
+
 ## My process
 
 ### Built with
