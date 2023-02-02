@@ -36,6 +36,17 @@
     display: inline-block;
   }
 
+  .icon-menu::after {
+    content: url("../src/Assets/images/icon-arrow-down.svg");
+    display: inline-block;
+    transition: all ease-in-out 200ms;
+    
+  }
+
+  .icon-menu[aria-expanded="true"]::after {
+    transform: rotate(180deg);
+  }
+
   body header::after {
     --transition: 200ms ease-in-out;
     content: "";
